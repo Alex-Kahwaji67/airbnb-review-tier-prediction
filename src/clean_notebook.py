@@ -25,6 +25,7 @@ def clean_cell(cell):
         "pd.read_csv('/Users/weeb/Library/Mobile Documents/com~apple~CloudDocs/*INSY 446/Team proj/Airbnb/listings.csv')",
         "pd.read_csv('../data/listings.csv')",
     )
+    source = source.replace("df_cleaner.drop(", "df_clean.drop(")
     cleaned["source"] = source.splitlines(True)
     return cleaned
 

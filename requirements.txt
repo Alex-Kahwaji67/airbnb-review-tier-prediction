@@ -1,0 +1,8 @@
+# Direct third-party imports in the staged notebook.
+# Keep object-dtype categorical encoding and the existing L1 penalty API.
+pandas<3.0
+numpy
+matplotlib
+seaborn
+scikit-learn<1.10
+statsmodels
